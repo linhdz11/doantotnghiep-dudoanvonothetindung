@@ -1,0 +1,14 @@
+# Ghim theo môi trường đã huấn luyện models/final_model.joblib (metadata.json: sklearn 1.9.1, imblearn 0.14.2)
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+joblib==1.6.0
+scipy==1.18.1
+pandas==3.0.6
+numpy==2.5.3
+streamlit==1.64.0
+shap==0.52.0
+plotly==7.1.0
+matplotlib==3.11.2
+# chỉ cần cho app/prepare_data.py và kiểm thử
+ucimlrepo==0.0.7
+pytest==9.1.1

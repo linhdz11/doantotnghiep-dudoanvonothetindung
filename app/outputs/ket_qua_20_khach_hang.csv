@@ -1,0 +1,21 @@
+﻿Mã KH,Mô tả,Xác suất (%),Nhóm rủi ro,Dự đoán,Thực tế,Đúng/Sai
+19965,"Trễ hạn 3 tháng (tháng 9), trễ 6/6 tháng, dùng 2% hạn mức, trả 0% sao kê",84.7,Cao,Vỡ nợ,Vỡ nợ,✓
+20635,"Trễ hạn 4 tháng (tháng 9), trễ 6/6 tháng, dùng 36% hạn mức, trả 3% sao kê",71.53,Cao,Vỡ nợ,Vỡ nợ,✓
+13490,"Trễ hạn 2 tháng (tháng 9), trễ 3/6 tháng, dùng 56% hạn mức, trả 3% sao kê",67.97,Cao,Vỡ nợ,Vỡ nợ,✓
+8998,"Trễ hạn 2 tháng (tháng 9), trễ 2/6 tháng, dùng 1% hạn mức, trả 15% sao kê",64.16,Cao,Vỡ nợ,Không vỡ nợ,✗
+5985,"Trễ hạn 1 tháng (tháng 9), trễ 1/6 tháng, dùng 0% hạn mức",40.11,Cao,Vỡ nợ,Vỡ nợ,✓
+29905,"Trễ hạn 1 tháng (tháng 9), trễ 2/6 tháng, dùng 98% hạn mức, trả 15% sao kê",32.4,Cao,Vỡ nợ,Không vỡ nợ,✗
+6579,"Trả đủ tháng 9, trễ 1/6 tháng, dùng 0% hạn mức, trả 89% sao kê",28.61,Trung bình,Vỡ nợ,Vỡ nợ,✓
+5252,"Trả tối thiểu tháng 9, trễ 2/6 tháng, dùng 67% hạn mức, trả 10% sao kê",28.16,Trung bình,Vỡ nợ,Vỡ nợ,✓
+27950,"Trả đủ tháng 9, dùng 0% hạn mức, trả 0% sao kê",24.54,Trung bình,Vỡ nợ,Không vỡ nợ,✗
+18420,"Trả đủ tháng 9, dùng 1% hạn mức, trả 0% sao kê",22.24,Trung bình,Vỡ nợ,Không vỡ nợ,✗
+27918,"Trả tối thiểu tháng 9, dùng 55% hạn mức, trả 14% sao kê",14.02,Trung bình,Không vỡ nợ,Không vỡ nợ,✓
+29513,"Trả tối thiểu tháng 9, dùng 98% hạn mức, trả 4% sao kê",13.47,Trung bình,Không vỡ nợ,Không vỡ nợ,✓
+23332,"Trả tối thiểu tháng 9, dùng 2% hạn mức, trả 26% sao kê",13.08,Trung bình,Không vỡ nợ,Vỡ nợ,✗
+15650,"Trả đủ tháng 9, dùng 3% hạn mức, trả 110% sao kê",9.89,Thấp,Không vỡ nợ,Không vỡ nợ,✓
+3806,"Trả tối thiểu tháng 9, dùng 63% hạn mức, trả 4% sao kê",9.18,Thấp,Không vỡ nợ,Không vỡ nợ,✓
+6462,"Trả tối thiểu tháng 9, dùng 63% hạn mức, trả 7% sao kê",8.39,Thấp,Không vỡ nợ,Không vỡ nợ,✓
+6403,"Trả đủ tháng 9, dùng 2% hạn mức, trả 101% sao kê",8.38,Thấp,Không vỡ nợ,Vỡ nợ,✗
+24618,"Trả tối thiểu tháng 9, dùng 55% hạn mức, trả 6% sao kê",8.35,Thấp,Không vỡ nợ,Không vỡ nợ,✓
+17314,"Trả tối thiểu tháng 9, dùng 18% hạn mức, trả 39% sao kê",6.33,Thấp,Không vỡ nợ,Không vỡ nợ,✓
+20558,"Trả tối thiểu tháng 9, dùng 17% hạn mức, trả 25% sao kê",6.15,Thấp,Không vỡ nợ,Không vỡ nợ,✓

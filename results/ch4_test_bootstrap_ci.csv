@@ -1,0 +1,7 @@
+﻿Mô hình,Độ đo,Giá trị (test),CI 95% dưới,CI 95% trên
+Logistic Regression,ROC-AUC,0.7624,0.7472,0.7779
+Logistic Regression,PR-AUC,0.5275,0.4999,0.558
+Decision Tree,ROC-AUC,0.7535,0.7387,0.7688
+Decision Tree,PR-AUC,0.5272,0.4997,0.5551
+Random Forest,ROC-AUC,0.7736,0.7593,0.7884
+Random Forest,PR-AUC,0.5559,0.5279,0.5822

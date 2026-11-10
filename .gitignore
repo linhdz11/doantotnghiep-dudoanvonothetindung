@@ -1,0 +1,21 @@
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit (có thể chứa khoá bí mật)
+.streamlit/secrets.toml
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

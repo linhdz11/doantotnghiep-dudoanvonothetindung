@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn>=1.5
+imbalanced-learn
+matplotlib
+seaborn
+ucimlrepo
+jupyter
+scipy
+shap

@@ -1,0 +1,4 @@
+﻿Mô hình,Cấu hình,Ngưỡng,Accuracy,Precision,Recall,F1,F2,ROC-AUC,PR-AUC,Gini,KS,Brier
+Logistic Regression,B: balanced,0.5,0.7567,0.4611,0.5905,0.5179,0.5591,0.7624,0.5275,0.5247,0.403,0.1876
+Decision Tree,B: balanced,0.5,0.7265,0.4199,0.6192,0.5005,0.5655,0.7535,0.5272,0.5069,0.3865,0.1916
+Random Forest,B: balanced,0.5,0.7606,0.4687,0.6161,0.5324,0.5797,0.7736,0.5559,0.5471,0.4251,0.1815

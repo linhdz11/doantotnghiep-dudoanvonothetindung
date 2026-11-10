@@ -1,0 +1,133 @@
+{
+  "model_name": "Random Forest — RF A + ngưỡng chi phí",
+  "imbalance_config": "A: none",
+  "hyperparameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 6,
+    "max_features": 0.5,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 21,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 200,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "threshold": 0.17,
+  "threshold_rule": "min expected cost, CFN:CFP=5:1, chọn trên OOF train",
+  "calibrated_probabilities": true,
+  "risk_bands": {
+    "edges": [
+      0.1,
+      0.3
+    ],
+    "labels": [
+      "Thấp",
+      "Trung bình",
+      "Cao"
+    ],
+    "rule": "Thấp: p < edges[0]; Trung bình: edges[0] <= p < edges[1]; Cao: p >= edges[1]",
+    "test_default_rate": {
+      "Thấp": 0.076,
+      "Trung bình": 0.1717,
+      "Cao": 0.541
+    }
+  },
+  "input_columns": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6",
+    "AVG_BILL_AMT",
+    "AVG_PAY_AMT",
+    "PAY_RATIO",
+    "NUM_MONTHS_DELAYED",
+    "MAX_DELAY",
+    "CREDIT_UTIL",
+    "PAY_0_nouse",
+    "PAY_0_revolving",
+    "PAY_2_nouse",
+    "PAY_2_revolving",
+    "PAY_3_nouse",
+    "PAY_3_revolving",
+    "PAY_4_nouse",
+    "PAY_4_revolving",
+    "PAY_5_nouse",
+    "PAY_5_revolving",
+    "PAY_6_nouse",
+    "PAY_6_revolving",
+    "BILL_TREND"
+  ],
+  "note": "Đầu vào là các cột sau Feature Engineering của Chương 3 cộng BILL_TREND (hàm add_bill_trend); đối tượng là FixedThresholdClassifier nên predict() đã áp dụng ngưỡng, predict_proba() trả xác suất vỡ nợ.",
+  "cv_repeated_5x10_mean": {
+    "Precision": 0.3862,
+    "Recall": 0.7412,
+    "F1": 0.5068,
+    "F2": 0.6249,
+    "Chi phí/KH (5:1)": 0.549,
+    "PR-AUC": 0.5637,
+    "ROC-AUC": 0.7853,
+    "Brier": 0.1334,
+    "Log loss": 0.4261
+  },
+  "test_metrics": {
+    "Ngưỡng": 0.17,
+    "Precision": 0.3793,
+    "Recall": 0.7089,
+    "F1": 0.4942,
+    "F2": 0.604,
+    "Chi phí/KH (5:1)": 0.5787,
+    "PR-AUC": 0.5586,
+    "ROC-AUC": 0.7733,
+    "Gini": 0.5466,
+    "KS": 0.4239,
+    "Brier": 0.1359,
+    "Log loss": 0.4332,
+    "P(default) trung bình": 0.2206
+  },
+  "test_bootstrap_ci95": {
+    "ROC-AUC": [
+      0.7586,
+      0.7879
+    ],
+    "PR-AUC": [
+      0.5299,
+      0.5848
+    ],
+    "Brier": [
+      0.1299,
+      0.1417
+    ]
+  },
+  "random_state": 42,
+  "sklearn_version": "1.9.1",
+  "imblearn_version": "0.14.2"
+}
